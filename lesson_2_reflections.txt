@@ -2,4 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
     It initializes Git so you can keep a history and track changes.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-    The staging area allows you to plan and prepare how you want to commit certain changes, instead of having to save all at once. 
+    The staging area allows you to plan and prepare how you want to commit certain changes, instead of having to save all at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    You can check with Git diff and git diff --staged
+
+    
