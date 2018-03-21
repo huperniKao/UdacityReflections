@@ -12,3 +12,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
     I would most likely use Google Drive to collaborate. It's easier, in that google automatically saves and updates what you're working on. It can also keep track of changes made. The harder part is keeping track of separate versions or working offline.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+    When you're creating a new feature, but still want to have the master branch set as the working product/code. By keeping it in a separate branch, you can keep working on new experimental features without messing up the working code. By making changes in the master,  you don't have to worry about different branches and merge conflicts
